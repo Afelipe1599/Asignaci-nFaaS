@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://34.67.216.190:8080
+functions:
+  funcion2:
+    lang: python3
+    handler: ./funcion2
+    image: afelipevm/funcion2:latest
+
